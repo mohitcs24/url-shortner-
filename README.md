@@ -35,15 +35,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/helderburato/node-mvc-boilerpalte/tags).
 
-## Authors
-
-- **Helder Burato Berto** - _Initial work_ - [helderburato](https://github.com/helderburato)
 
 See also the list of [contributors](https://github.com/helderburato/node-url-shortener/contributors) who participated in this project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 [license-badge]: https://img.shields.io/github/license/helderburato/node-url-shortener.svg
 [license-url]: https://opensource.org/licenses/MIT

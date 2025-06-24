@@ -1,0 +1,68 @@
+{
+  "name": "node-url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shrinker with NodeJS + EJS + MongoDB.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "node dist/server.js",
+    "copy": "cp -r src/views dist; cp -r src/static dist",
+    "build": "rimraf ./dist; tsc; yarn copy",
+    "watch-node": "nodemon dist/server",
+    "watch-ts": "tsc -w",
+    "lint": "tsc --noEmit; eslint 'src/*.{js,ts,tsx}' --quiet --fix",
+    "postinstall": "yarn build"
+  },
+  "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helder.dev/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helderburato/node-url-shortener.git"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "cp": "^0.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4",
+    "rimraf": "^3.0.2",
+    "sucrase": "^3.13.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/compression": "^1.7.0",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/mongoose": "^5.7.10",
+    "@types/morgan": "^1.9.0",
+    "@types/shortid": "^0.0.29",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.15"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "node-shrinker",
+    "node-shortener"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helderburato/node-url-shortener/issues"
+  },
+  "homepage": "https://github.com/helderburato/node-url-shortener#readme"
+}

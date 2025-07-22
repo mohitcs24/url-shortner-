@@ -26,6 +26,8 @@ $ yarn install
 # Start your project
 $ yarn dev OR yarn start // => DEV / PROD
 ```
+<img width="768" height="490" alt="short" src="https://github.com/user-attachments/assets/1bba2cf2-e830-44d9-9aa3-2234cf11298a" />
+
 
 ## Contributing
 
@@ -44,3 +46,4 @@ See also the list of [contributors](https://github.com/helderburato/node-url-sho
 [license-url]: https://opensource.org/licenses/MIT
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli/
+
